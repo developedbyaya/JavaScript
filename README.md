@@ -4,6 +4,7 @@ This repo contains notes on JavaScript (JS) as well as useful resources and best
 
 ## Useful Websites
 
+
 These are good reference websites for JavaScript:
 
 1. [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
@@ -11,7 +12,9 @@ These are good reference websites for JavaScript:
 3. [StackOverflow](https://stackoverflow.com/)
 4. [ChatGPT](https://chat.openai.com/auth/login)
 
+
 ## Code Editors 
+
 
 A code editor is where developers write their code as well as debug it(look for and fix errors). Some of the most popular one's are:
 
@@ -20,7 +23,9 @@ A code editor is where developers write their code as well as debug it(look for 
 3. [Notepad++](https://notepad-plus-plus.org/)
 4. [Sublime Text](https://www.sublimetext.com/)
 
+
 ## Web Broswers
+
 
 Most JavaScript runs on the web, here are some of the most popular web browers. 
 
@@ -32,10 +37,12 @@ Most JavaScript runs on the web, here are some of the most popular web browers.
 
 ## JavaScript Fundamentals
 
+
 Our JS journey begins with understanding a few basic concepts:
 
 
 ### How to add JS Script to your HTML file:
+
 
 N.B. HTML will be referenced, please make sure you know it's basics before continuing. 
 
@@ -116,7 +123,8 @@ or
 `src="./myscript.js"` // File is inside the folder we are working in. 
 
 
-### JS Basics
+## JS Basics
+
 
 How can we start a programming language lesson without writing the most famous programming line, a simple "Hello World!" program in JS :).
 
@@ -125,3 +133,32 @@ How can we start a programming language lesson without writing the most famous p
 The `alert()` keyword in JS is used to display messages or alerts as the word itself implies to the user. The message will appear like this (in firefox), depending on the browser you are using, it might appear slightly different:
 
 ![alertbox](https://github.com/developedbyaya/JavaScript/assets/135131214/ce3b51e0-cf5e-481e-a3b1-1873e3d8edf0)
+
+
+### Declaring variables
+
+
+A variable is a placeholder for a value. Think of it as a box that holds some vaulable piece of indormation or item for us. 
+
+To declare a variable if JS we use the folowing keywords:
+1. `const` - used to declare a variable whose value you do not want changed. 
+2. `let` - value of variable can later be changed or updated. 
+3. `var` // No longer reccommended.
+
+Examples: 
+
+`const age = 21`
+`let firstName = "John"`
+`var lastName = "Doe"` // No longer reccommended.
+
+
+### Rules for naking variables
+
+Variable names must:
+
+1. Not start with a number. This is wrong `let 1age;` !!
+2. Start with a letter, a dollar sign ($) or an underscore (_). Examples; `let $money`, `const _yourAge`, `let user123`.
+3. Not contain spaces in between. This is wrong `const my age`, do this instead; `const my_age`.
+4. Must not be a special or reserved keyword such as `int`, `let`, `class`.
+
+Check the list of reserved keyword in JS from MDN here -> [Reserved Keywords In JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords), 
