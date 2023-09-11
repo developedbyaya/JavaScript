@@ -36,19 +36,21 @@ Our JS journey begins with understanding a few basic concepts:
 
 N.B. HTML will be referenced, please make sure you know it's basics before continuing. 
 
-We use the `<script></script>` tag to add JS to a webpage/HTML page. JS scripts can be added in the `head` or the `body` tag in our HTML files.
+We use the `<script></script>` tag to add JS to a webpage/HTML page. JS scripts can be added in the `head` or the `body` tag in our HTML files. The two examples below are examples of internal JS, this is JS that is written directly inside the webpage it will be used in. 
 
-An example of adding JS in the `body` tag:
+An example of adding internal JS in the `body` tag:
 
 ```
 <body>
     <script>
         // Write your JS code here.
+        // Note that this is a comment in JS ( // ), it will not be displayed anywhere on the browser.
+        // It is useful for making notes for yourself or other developers that will be working on your source code. 
     </script>
 </body>
 ```
 
-An example of adding JS in the `head` tag:
+An example of adding internal JS in the `head` tag:
 
 ```
 <!DOCTYPE html>
@@ -58,8 +60,54 @@ An example of adding JS in the `head` tag:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Webpage Title</title>
+
     <script>
-      // Wtite your JS code here
+      // Wtite your JS code here.
     </script>
 </head>
 ```
+
+The above method of writing JS is useful if you are writing small JS code blocks. As a **best practice**, when your JS code is very large, it is best to write it in an external script file and import your file into the projects or webpage you will be using it in. 
+
+We use the `src` attribute to add external JS in our HTML files. 
+
+An example of adding external JS in the `body` tag:
+
+```
+<body>
+    <script src="/the/path/to/sctipt.js">
+        // Any code written inside thsi block will be ignored if the src attribute is used. 
+    </script>
+</body>
+```
+
+An example of adding internal JS in the `head` tag:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Webpage Title</title>
+
+    <script src="/the/path/to/sctipt.js">
+        // Any code written inside thsi block will be ignored if the src attribute is used. 
+    </script>
+</head>
+```
+
+Paths can be relative or absolute. A path is where your file is stored. 
+
+Absolute paths refers to when you provide the full path of where your file is stored. Some examples are:
+
+`src="C:/example/cwd/mydir/myscript.js"` 
+or 
+`src="https//www.somewebsite.com/directory/myotherscript.js"`
+
+Relative paths refers to when you provide the path relative to the current folder you are working on. Some examples are:
+
+`src="myscript.js"` // File is inside the folder we are working in. 
+or
+`src="./myscript.js"` // File is inside the folder we are working in. 
