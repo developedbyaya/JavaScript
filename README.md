@@ -1,6 +1,7 @@
 # JavaScript
 This repo contains notes on JavaScript (JS) as well as useful resources and best prcatices. For simplicity, JS refers to JavaScript, I will be using JS to reference JavaScript.
 
+
 ## Useful Websites
 
 These are good reference websites for JavaScript:
@@ -28,9 +29,11 @@ Most JavaScript runs on the web, here are some of the most popular web browers.
 3. [Safari](https://www.apple.com/safari/)
 4. [Microsoft Edge](https://www.microsoft.com/en-us/edge)
 
+
 ## JavaScript Fundamentals
 
 Our JS journey begins with understanding a few basic concepts:
+
 
 ### How to add JS Script to your HTML file:
 
@@ -111,6 +114,7 @@ Relative paths refers to when you provide the path relative to the current folde
 `src="myscript.js"` // File is inside the folder we are working in. 
 or
 `src="./myscript.js"` // File is inside the folder we are working in. 
+
 
 ### JS Basics
 
