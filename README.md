@@ -141,7 +141,7 @@ The `alert()` keyword in JS is used to display messages or alerts as the word it
 A variable is a placeholder for a value. Think of it as a box that holds some vaulable piece of indormation or item for us. 
 
 To declare a variable if JS we use the folowing keywords:
-1. `const` - used to declare a variable whose value you do not want changed. 
+1. `const` - used to declare a variable whose value you do not want changed or reassigned. 
 2. `let` - value of variable can later be changed or updated. 
 3. `var` // No longer reccommended.
 
@@ -152,7 +152,7 @@ Examples:
 `var lastName = "Doe"` // No longer reccommended.
 
 
-### Rules for naking variables
+### Rules for naming variables (Not just in JS)
 
 Variable names must:
 
@@ -161,4 +161,4 @@ Variable names must:
 3. Not contain spaces in between. This is wrong `const my age`, do this instead; `const my_age`.
 4. Must not be a special or reserved keyword such as `int`, `let`, `class`.
 
-Check the list of reserved keyword in JS from MDN here -> [Reserved Keywords In JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords), 
+Check the list of reserved keyword in JS from MDN here -> [Reserved Keywords In JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords)
