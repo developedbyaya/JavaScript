@@ -114,9 +114,10 @@ or
 
 ### JS Basics
 
-How can we start a programming language lesson without writing the most famous programming line,I am talking about a "Hello World!" program in JS :).
+How can we start a programming language lesson without writing the most famous programming line, a simple "Hello World!" program in JS :).
 
-`alert("Hello World!);` // This will display hello world inside a browser window. You are now officially a developer. 
+`alert("Hello World!");` // This will display hello world inside a browser window. You are now officially a developer!
 
-The `alert()` keyword is JS is used to display messages or alerts as the word implies to the user. The message will appear like this:
+The `alert()` keyword in JS is used to display messages or alerts as the word itself implies to the user. The message will appear like this (in firefox), depending on the browser you are using, it might appear slightly different:
+
 ![alertbox](https://github.com/developedbyaya/JavaScript/assets/135131214/ce3b51e0-cf5e-481e-a3b1-1873e3d8edf0)
